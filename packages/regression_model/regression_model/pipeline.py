@@ -24,3 +24,4 @@ price_pipe = Pipeline(
         ('categorical_imputer',
          pp.CategoricalImputer(variables=CATEGORICAL_VARS)),
     ])
+
